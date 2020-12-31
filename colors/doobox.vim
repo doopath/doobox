@@ -579,17 +579,17 @@ call s:HL('Error', s:red, s:vim_bg, s:bold . s:inverse)
 " Generic statement
 hi! link Statement GruvboxPurple
 " if, then, else, endif, swicth, etc.
-hi! link Conditional GruvboxPurple
+hi! link Conditional GruvboxPurpleBold
 " for, do, while, etc.
-hi! link Repeat GruvboxPurple
+hi! link Repeat GruvboxPurpleBold
 " case, default, etc.
-hi! link Label GruvboxPurple
+hi! link Label GruvboxPurpleBold
 " try, catch, throw
 hi! link Exception GruvboxRed
 " sizeof, "+", "*", etc.
-hi! link Operator Normal
+hi! link Operator GruvboxOrangeBold
 " Any other keyword
-hi! link Keyword GruvboxPurple
+hi! link Keyword GruvboxPurpleBold
 
 " Variable name
 hi! link Identifier GruvboxBlue
@@ -1032,19 +1032,19 @@ hi! link pythonBuiltin GruvboxOrange
 hi! link pythonBuiltinObj GruvboxOrange
 hi! link pythonBuiltinFunc GruvboxOrange
 hi! link pythonFunction GruvboxAqua
-hi! link pythonDecorator GruvboxRed
-hi! link pythonInclude GruvboxBlue
-hi! link pythonImport GruvboxBlue
+hi! link pythonDecorator GruvboxPurple
+hi! link pythonInclude GruvboxPurple
+hi! link pythonImport GruvboxPurple
 hi! link pythonRun GruvboxBlue
 hi! link pythonCoding GruvboxBlue
-hi! link pythonOperator GruvboxRed
-hi! link pythonException GruvboxRed
+hi! link pythonOperator GruvboxPurple
+hi! link pythonException GruvboxPurple
 hi! link pythonExceptions GruvboxPurple
-hi! link pythonBoolean GruvboxPurple
+hi! link pythonBoolean GruvboxRed
 hi! link pythonDot GruvboxFg3
-hi! link pythonConditional GruvboxRed
-hi! link pythonRepeat GruvboxRed
-hi! link pythonDottedName GruvboxGreenBold
+hi! link pythonConditional GruvboxPurple
+hi! link pythonRepeat GruvboxPurple
+hi! link pythonDottedName GruvboxGreen
 
 " }}}
 " CSS: {{{
