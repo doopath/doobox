@@ -1,5 +1,5 @@
 # What is doobox
-**Doobox is a [gruvbox](https://github.com/morhetz/gruvbox) based vim-colorscheme. Colors changes and nothing else.**
+**Doobox is a [gruvbox](https://github.com/morhetz/gruvbox) based vim-colorscheme. Colors changes and nothing else. Also, it used as default in [doovim](https://github.com/doobox/doovim) configuration.**
 
 **A few screenshots**
 ![no image](https://github.com/doopath/doobox/blob/master/screenshots/doobox.png)
