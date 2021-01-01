@@ -3,7 +3,6 @@
 
 **A few screenshots**
 ![no image](https://github.com/doopath/doobox/blob/master/screenshots/doobox.png)
-![no image](https://github.com/doopath/doobox/blob/master/screenshots/doobox_full.png)
 
 ## How to install doobox
 **There is a easy way to install doobox with [vim-plug](https://github.com/junegunn/vim-plug).**
